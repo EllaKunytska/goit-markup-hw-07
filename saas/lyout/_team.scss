@@ -1,0 +1,40 @@
+.team-section {
+    padding: 94px 0;
+    background-color: var(--secondary-bcg);
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+
+
+    &__element {
+        max-width: 270px;
+        flex-basis: calc((100% - 90px)/4);
+        margin: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        overflow: hidden;
+    }
+
+    &__name {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    &__title {
+        margin-bottom: 10px;
+        @include font (16px, 500, 19px);
+        text-align: center;
+        color: var(--title-text-color);
+        text-transform: capitalize;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        color: var(--main-text-color);
+    }
+}

@@ -1,0 +1,23 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/mixin";
+@import "./utils/placeholder";
+
+@import "./base/common";
+@import "./base/container";
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/currentPage";
+@import "./components/socials";
+@import "./components/secondaryTitle";
+@import "./components/modalWindow";
+
+@import "./lyout/header";
+@import "./lyout/hero";
+@import "./lyout/strengths";
+@import "./lyout/jobs";
+@import "./lyout/team";
+@import "./lyout/clients";
+@import "./lyout/footer";
+@import "./lyout/portfolioGallery";
+

@@ -1,0 +1,32 @@
+.client{
+    @extend %set;
+    justify-content: center;
+
+    &__list {
+            width: 170px;
+            height: 92px;
+
+            &:not(:last-child) {
+                    margin-right: var(--card-set-gap);
+                }
+                
+            }
+
+    &__logo {
+            @extend %flex;
+            width: 100%;
+            height: 100%;
+            border: 1px solid var(--icon-color);
+            border-radius: 4px;
+            fill: var(--icon-color);
+    
+            transition: border var(--timing-duration) var(--timing-function), fill var(--timing-duration) var(--timing-function);
+    
+            &:hover,
+            &:focus {
+                border: 1px solid var(--accent-color);
+                fill: var(--accent-color);
+            }
+        }
+        }
+        

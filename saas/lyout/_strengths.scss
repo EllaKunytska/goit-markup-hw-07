@@ -1,0 +1,33 @@
+
+.strength{
+    @extend %set;
+
+    &__element {
+            flex-basis: calc((100% - 90px)/4);
+            max-width: 270px;
+    
+            &:not(:nth-child(4)) {
+                margin-right: var(--card-set-gap);
+            }
+        }
+    &__icon {
+            @extend %flex;
+            width: 270px;
+            height: 120px;
+            margin-bottom: 30px;
+    
+            background-color: var(--secondary-bcg);
+        }
+
+    &__title {
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            color: var(--title-text-color);
+        }
+    &__text {
+        line-height: 1.7;
+        color: var(--main-text-color);
+    }
+}
