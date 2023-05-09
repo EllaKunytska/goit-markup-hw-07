@@ -350,6 +350,10 @@ img {
   margin-bottom: 30px;
 }
 
+.modal__accept-link {
+  color: var(--accent-color);
+}
+
 .modal__btn_submit {
   display: block;
   margin: 0 auto;
