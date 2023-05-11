@@ -25,6 +25,7 @@
             transition: background-color var(--timing-duration) var(--timing-function), fill var(--timing-duration) var(--timing-function);
     
             &_theme-dark {
+                fill: var(--icon-color-socials);
                 background-color: rgba(255, 255, 255, 0.1)
             }
     

@@ -1,5 +1,6 @@
 :root {
-  --card-set-gap: 30px;
+  --font-family-main: Roboto, sans-serif;
+  --font-family-secondary: Raleway, sans-serif;
   --main-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
@@ -17,6 +18,7 @@
   --timing-duration: 250ms;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --icon-color-socials: #FFFFFF;
+  --card-set-gap: 30px;
 }
 
 .visually-hidden {
@@ -44,7 +46,7 @@
 
 body {
   background-color: var(--bcg-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-family-main);
   color: var(--main-text-color);
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -87,7 +89,7 @@ img {
 .logo {
   margin-right: 93px;
   color: var(--logo-color);
-  font-family: Raleway, sans-serif;
+  font-family: var(--font-family-secondary);
   font-style: normal;
   font-size: 26px;
   font-weight: 700;
@@ -168,6 +170,7 @@ img {
   transition: background-color var(--timing-duration) var(--timing-function), fill var(--timing-duration) var(--timing-function);
 }
 .socials__icon_theme-dark {
+  fill: var(--icon-color-socials);
   background-color: rgba(255, 255, 255, 0.1);
 }
 .socials__icon:hover, .socials__icon:focus {
@@ -349,7 +352,6 @@ img {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-
 .modal__accept-link {
   color: var(--accent-color);
 }
@@ -429,7 +431,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--hero-bcg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/overlay.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/overlay.jpg);
   background-repeat: no-repeat;
 }
 .hero__title {
@@ -681,7 +683,7 @@ img {
 
 .filter__button {
   padding: 6px 22px;
-  font-family: "Roboto";
+  font-family: var(--font-family-main);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;

@@ -1,5 +1,6 @@
 :root {
-    --card-set-gap: 30px;
+    --font-family-main: Roboto, sans-serif;
+    --font-family-secondary: Raleway, sans-serif;
     --main-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
@@ -17,4 +18,5 @@
     --timing-duration: 250ms;
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --icon-color-socials: #FFFFFF;
+    --card-set-gap: 30px;
 }

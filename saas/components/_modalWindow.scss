@@ -170,10 +170,13 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 30px;
+    
+    &-link{
+        color: var(--accent-color);
+    }
 }
- .modal__accept-link{
-     color: var(--accent-color);
- }
+
+
 
 .modal__btn_submit {
     display: block;
